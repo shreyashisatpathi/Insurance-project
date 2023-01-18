@@ -7,7 +7,7 @@ function Itenary({id,image, info, price, name}){
 
     return(
         <article className={styles.Itenary}>
-        {/* <img src = {image}/>
+        <img src = {image}/>
         <footer>
           <h4>{name}</h4>
           <h4>{price}</h4>
@@ -17,7 +17,7 @@ function Itenary({id,image, info, price, name}){
         {readMore?'showless': ' Read more'}
         </button>
         </p>
-        <button >Not Interested</button> */}
+        <button >Not Interested</button>
         </article>
     )
 };
